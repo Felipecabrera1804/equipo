@@ -5,11 +5,11 @@ namespace SRP
     public class Libro
     { // falta encapsular y separar metodos por clase, ya que no debe ser responsabilidad del libro almacenarse
 
-        public string Titulo { get ; }
-        public string Autor { get ; }
-        public string Codigo { get ;  }
-        public string SectorBiblioteca { get ; set; }
-        public string EstanteBiblioteca { get ; set; }
+        private string Titulo { get ; }
+        private string Autor { get ; }
+        private string Codigo { get ;  }
+        private string SectorBiblioteca { get ; set; }
+        private string EstanteBiblioteca { get ; set; }
 
         public Libro(String titulo, String autor, String codigo)
         {
