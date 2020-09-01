@@ -3,7 +3,7 @@
 namespace SRP
 {
     public class Libro
-    {
+    { // falta encapsular y separar metodos por clase, ya que no debe ser responsabilidad del libro almacenarse
 
         public string Titulo { get ; }
         public string Autor { get ; }
